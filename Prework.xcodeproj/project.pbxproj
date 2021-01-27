@@ -15,6 +15,7 @@
 		6B06BB5625BBB8F3000CC302 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B06BB5425BBB8F3000CC302 /* LaunchScreen.storyboard */; };
 		6B06BB6125BBB8F3000CC302 /* PreworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B06BB6025BBB8F3000CC302 /* PreworkTests.swift */; };
 		6B06BB6C25BBB8F3000CC302 /* PreworkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B06BB6B25BBB8F3000CC302 /* PreworkUITests.swift */; };
+		6B65A07725BCC8F9008C888F /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B65A07625BCC8F9008C888F /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		6B06BB6725BBB8F3000CC302 /* PreworkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PreworkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B06BB6B25BBB8F3000CC302 /* PreworkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreworkUITests.swift; sourceTree = "<group>"; };
 		6B06BB6D25BBB8F3000CC302 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B65A07625BCC8F9008C888F /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		6B06BB4825BBB8F0000CC302 /* Prework */ = {
 			isa = PBXGroup;
 			children = (
+				6B65A07625BCC8F9008C888F /* SettingsViewController.swift */,
 				6B06BB4925BBB8F0000CC302 /* AppDelegate.swift */,
 				6B06BB4B25BBB8F0000CC302 /* SceneDelegate.swift */,
 				6B06BB4D25BBB8F0000CC302 /* ViewController.swift */,
@@ -261,6 +264,7 @@
 				6B06BB4E25BBB8F0000CC302 /* ViewController.swift in Sources */,
 				6B06BB4A25BBB8F0000CC302 /* AppDelegate.swift in Sources */,
 				6B06BB4C25BBB8F0000CC302 /* SceneDelegate.swift in Sources */,
+				6B65A07725BCC8F9008C888F /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
