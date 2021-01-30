@@ -13,17 +13,27 @@ class SettingsViewController: UIViewController {
     @IBOutlet weak var showTipSlider: UISwitch!
     @IBOutlet weak var defaultTipSliderValue: UILabel!
     
+    let defaults = UserDefaults.standard
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        let defaultTip = defaults.integer(forKey: "defaultTip") ?? 20
 
-        // Do any additional setup after loading the view.
+        defaultTipSliderValue.text = String(format: "%d%%", defaultTip)
+        
+        defaultTipAmount.value = Float(defaultTip)
     }
     
     @IBAction func setDefaultTip(_ sender: Any) {
-        let defaultTip = defaultTipAmount.value
+        let defaultTip = Int(defaultTipAmount.value)
         
-        defaultTipSliderValue.text = String(format: "%%.2f", defaultTip)
+        defaultTipSliderValue.text = String(format: "%d%%", defaultTip)
         
+        defaults.set(defaultTip, forKey: "defaultTip")
+        defaults.synchronize()
+        
+        print(defaultTip)
         
     }
     
