@@ -10,7 +10,6 @@ import UIKit
 class SettingsViewController: UIViewController {
 
     @IBOutlet weak var defaultTipAmount: UISlider!
-    @IBOutlet weak var showTipSlider: UISwitch!
     @IBOutlet weak var defaultTipSliderValue: UILabel!
     
     let defaults = UserDefaults.standard
