@@ -28,8 +28,6 @@ Here's a walkthrough of implemented user stories:
 
 <img src='https://github.com/emilypilley/Codepath_Prework/blob/main/codepath_prework.gif' title='Prework Walkthrough' width='' alt='Video Walkthrough' />
 
-GIF created with [LiceCap](http://www.cockos.com/licecap/).
-
 ## Notes
 
 Describe any challenges encountered while building the app.
